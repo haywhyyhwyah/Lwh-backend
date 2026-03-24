@@ -13,7 +13,7 @@ const adminRoutes = require('./routes/admin.routes')
 const cors = require('cors')
 
 app.use(cors({
-    origin: "https://learn-with-haywhy.vercel.app/",
+    origin: "https://learn-with-haywhy.vercel.app",
     methods: "GET, POST, PUT, DELETE, PATCH",
     credentials: true
 }))
